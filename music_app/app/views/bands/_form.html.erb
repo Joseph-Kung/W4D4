@@ -1,0 +1,30 @@
+<% action == :new ? url = bands_url : url = band_url %>
+<% action == :new ? title = 'List a new Band!' : title = 'Edit a Band!' %>
+
+<section>
+  <h1><%= title %></h1>
+  <br>
+
+  <form class="" action=" <%= url %> " method="post">
+  <%= auth_token %>
+  <% unless action == :new %>
+    <input type="hidden" name="_method" value="patch">
+  <% end %>
+
+
+    <label for="<%= url %>"></label>Band name:
+      <input type="text" name="band[name]" value="<%= @band.name %>">
+    </label>
+    <input type="submit" name="" value="Submit">
+    <br>
+    <%= flash.now[:errors].first if flash.now[:errors]%>
+  </form>
+
+  <% unless action == :new %>
+    <form class="" action="<%= url %>" method="post">
+      <%= auth_token %>
+      <input type="hidden" name="_method" value="delete">
+      <input type="submit" name="" value="Delete">
+    </form>
+  <% end %>
+</section>

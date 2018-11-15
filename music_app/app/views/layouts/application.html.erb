@@ -11,7 +11,7 @@
 
 
   <header>
-    <h1>Welcome to my Music App!</h1>
+    <a href="<%= bands_url %>"><h1>Welcome to my Music App!</h1></a>
     <div>
       <% if current_user.nil? %>
       <a href=" <%= new_user_url %> "> Sign Up </a>

@@ -1,0 +1,11 @@
+<section>
+  <h1><%= @band.name %></h1>
+  <br>
+
+  <form class="" action=" <%= edit_band_url %> " method="post">
+  <input type="hidden" name="_method" value="get">
+  <%= auth_token %>
+
+  <input type="submit" name="" value="Edit">
+  </form>
+</section>

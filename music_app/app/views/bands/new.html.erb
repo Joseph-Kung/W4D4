@@ -1,0 +1,17 @@
+<!-- <section>
+  <h1>List a new Band!</h1>
+  <br>
+
+  <form class="" action=" <%= bands_url %> " method="post">
+  <%= auth_token %>
+  <input type="hidden" name="_method" value="create">
+    <label for="band[name]"></label>Band name:
+      <input type="text" name="band[name]" value="">
+    </label>
+    <input type="submit" name="" value="Submit Band">
+    <br>
+    <%= flash.now[:errors].first if flash.now[:errors]%>
+  </form>
+</section> -->
+
+<%= render 'form', action: :new %>

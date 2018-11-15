@@ -105,3 +105,87 @@ Migrating to CreateUsers (20181115180517)
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jk@jk.com"], ["LIMIT", 1]]
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jk@jk.com"], ["LIMIT", 1]]
   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jk@jk.commmm"], ["LIMIT", 1]]
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 10:40:45 -0800
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/JKung/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 537ms (Views: 527.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 10:40:54 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 10:40:59 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-15 10:41:12 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"users"=>{"email"=>"j@j.com", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::InvalidAuthenticityToken - ActionController::InvalidAuthenticityToken:
+
+Started POST "/__better_errors/5ab91223739b4b54/variables" for 127.0.0.1 at 2018-11-15 10:41:12 -0800
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 10:44:24 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-15 10:44:29 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"pXNWnIFFe1Z2SvED09usrcnWDf0S7sP6PItUvXJaYWVh/MOmb1nCpT0ZYdfZhGcayohpYt6mSyHJLc2lODMQKw==", "users"=>{"email"=>"j@j.com", "password"=>"[FILTERED]"}}
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.0ms)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: user:
+  app/controllers/users_controller.rb:20:in `user_params'
+  app/controllers/users_controller.rb:7:in `create'
+
+Started POST "/__better_errors/1584fe46e48f3366/variables" for 127.0.0.1 at 2018-11-15 10:44:29 -0800
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 10:44:51 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-11-15 10:44:58 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"qShU555MqmDz4+0tMnhrzbVgZD1zpHBZsuQAQlR98n9tp8HdcFATk7iwffk4J6B6tj4Aor/s+IJHQplaHhSDMQ==", "user"=>{"email"=>"j@j.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "j@j.com"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."password_digest" = $1 LIMIT $2[0m  [["password_digest", "$2a$10$1fVWAJy5NvR1PB49FYu26uwIAU0l6Zl.btL/SGnNrVV1dXDSGHNQ2"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "TVMH9vD2SQG6SgJUWNGzQg"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "j@j.com"], ["password_digest", "$2a$10$1fVWAJy5NvR1PB49FYu26uwIAU0l6Zl.btL/SGnNrVV1dXDSGHNQ2"], ["session_token", "TVMH9vD2SQG6SgJUWNGzQg"], ["created_at", "2018-11-15 18:44:58.933217"], ["updated_at", "2018-11-15 18:44:58.933217"]]
+  ↳ app/controllers/users_controller.rb:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:9
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 15.2ms)
+
+
+
+NoMethodError - undefined method `login!' for #<UsersController:0x007fc69d78dcd0>:
+  app/controllers/users_controller.rb:10:in `create'
+
+Started POST "/__better_errors/bba2b01d22a43619/variables" for 127.0.0.1 at 2018-11-15 10:44:59 -0800
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m

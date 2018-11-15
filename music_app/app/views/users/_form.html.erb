@@ -1,3 +1,6 @@
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
 <% if action == :sign_up %>
   <% action_url = users_url %>
   <% button = "Sign Up" %>
@@ -6,7 +9,7 @@
   <% button = "Log In" %>
 <% end %>
 
-
+<section>
 <h2>Please <%= button %> Here!</h2>
 <form action=" <%= action_url %> " method="post">
   <%= auth_token %>
@@ -25,3 +28,4 @@
   <br>
   <input type="submit" name="" value=" <%= button %> ">
 </form>
+</section>

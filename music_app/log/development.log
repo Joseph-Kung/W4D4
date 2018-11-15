@@ -1653,3 +1653,347 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:05:30 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:08:26 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:08:35 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.3ms)
+  Rendered sessions/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:08:47 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.0ms)
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:26 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.7ms)
+  Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:27 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.0ms)
+  Rendered sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:33 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:34 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.8ms)
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:35 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:47 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:09:59 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:10:30 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:11:53 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:11:55 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.0ms)
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:12:13 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:12:17 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.3ms)
+  Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:13:25 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:13:49 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:13:59 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:14:18 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:14:22 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:15:13 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.5ms)
+  Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:15:25 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:15 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:25 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:31 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.0ms)
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:34 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:39 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.2ms)
+  Rendered sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:16:46 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:18:27 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.4ms)
+  Rendered sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:18:44 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:18:50 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (0.9ms)
+  Rendered sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:18:57 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (2.1ms)
+  Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:18:59 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2018-11-15 12:19:00 -0800
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.5ms)
+  Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:19:01 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:20:23 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (78.1ms)
+  Rendered users/new.html.erb within layouts/application (80.4ms)
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( form.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3763135529553836356_70245518493480'
+  app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___2523030422346951243_70245580440120'
+  app/controllers/users_controller.rb:3:in `new'
+
+Started POST "/__better_errors/54769999d59c47db/variables" for 127.0.0.1 at 2018-11-15 12:20:23 -0800
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:20:53 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (35.5ms)
+  Rendered users/new.html.erb within layouts/application (38.0ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( form.css )` to `config/initializers/assets.rb` and restart your server:
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb___3763135529553836356_70245534738120'
+  app/views/users/new.html.erb:1:in `_app_views_users_new_html_erb___2523030422346951243_70245570444960'
+  app/controllers/users_controller.rb:3:in `new'
+
+Started POST "/__better_errors/1d80317765cf5aeb/variables" for 127.0.0.1 at 2018-11-15 12:20:53 -0800
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:21:30 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (21.2ms)
+  Rendered users/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:22:30 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (28.2ms)
+  Rendered users/new.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2018-11-15 12:24:00 -0800
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (23.3ms)
+  Rendered users/new.html.erb within layouts/application (25.6ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+

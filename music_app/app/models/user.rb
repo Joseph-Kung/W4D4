@@ -31,6 +31,8 @@ class User < ApplicationRecord
 
   def reset_session_token!
     self.session_token = User.generate_session_token
+    self.save!
+    self.session_token
   end
 
   def is_password?(password)
@@ -46,5 +48,5 @@ class User < ApplicationRecord
       nil
     end
   end
-  
+
 end

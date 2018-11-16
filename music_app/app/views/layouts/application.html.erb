@@ -14,14 +14,15 @@
     <a href="<%= bands_url %>"><h1>Welcome to my Music App!</h1></a>
     <div>
       <% if current_user.nil? %>
-      <a href=" <%= new_user_url %> "> Sign Up </a>
-      <a href=" <%= new_session_url %> "> Log in </a>
+      <a href="<%= new_user_url %>"> Sign Up </a>
+      <a href="<%= new_session_url %>"> Log in </a>
       <% else %>
-      <form class="" action="<%= session_url %>" method="post">
-        <input type="hidden" name="_method" value="delete">
+      <form action="<%= session_url %>" method="post">
         <%= auth_token %>
+        <input type="hidden" name="_method" value="delete">
         <input type="submit" name="" value="Log out">
         <% end %>
+      </form>
     </div>
 </header>
 

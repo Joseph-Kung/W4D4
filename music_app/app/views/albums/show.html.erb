@@ -1,0 +1,22 @@
+<section>
+  <h1><%= @album.title %></h1>
+  <br>
+  Band: <%= @band.name %>
+  <br>
+  Year: <%= @album.yr %>
+  <br>
+  Type: <%= @album.studio ? 'Studio' : 'Live' %>
+  <br>
+
+  <form action="<%= edit_album_url %> " method="post">
+  <input type="hidden" name="_method" value="get">
+  <%= auth_token %>
+  <input type="submit" name="" value="Edit">
+  </form>
+
+  <form action="<%= album_url %> " method="post">
+  <input type="hidden" name="_method" value="delete">
+  <%= auth_token %>
+  <input type="submit" name="" value="Delete">
+  </form>
+</section>

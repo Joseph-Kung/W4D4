@@ -2,10 +2,12 @@
   <h1><%= @band.name %></h1>
   <br>
 
-  <form class="" action=" <%= edit_band_url %> " method="post">
-  <input type="hidden" name="_method" value="get">
-  <%= auth_token %>
+  <form action="<%= edit_band_url %>" method="post">
+    <input type="hidden" name="_method" value="get">
+    <%= auth_token %>
 
-  <input type="submit" name="" value="Edit">
-  </form>
+    <input type="submit" name="" value="Edit Band">
+    </form>
+  <br>
+
 </section>

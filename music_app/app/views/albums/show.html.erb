@@ -9,14 +9,21 @@
   <br>
 
   <form action="<%= edit_album_url %> " method="post">
-  <input type="hidden" name="_method" value="get">
-  <%= auth_token %>
-  <input type="submit" name="" value="Edit">
+    <input type="hidden" name="_method" value="get">
+    <%= auth_token %>
+    <input type="submit" name="" value="Edit">
   </form>
 
   <form action="<%= album_url %> " method="post">
-  <input type="hidden" name="_method" value="delete">
-  <%= auth_token %>
-  <input type="submit" name="" value="Delete">
+    <input type="hidden" name="_method" value="delete">
+    <%= auth_token %>
+    <input type="submit" name="" value="Delete">
   </form>
+
+  <form action="<%= band_url(@band) %> " method="post">
+    <input type="hidden" name="_method" value="get">
+    <%= auth_token %>
+    <input type="submit" name="" value="Return to Band">
+  </form>
+
 </section>

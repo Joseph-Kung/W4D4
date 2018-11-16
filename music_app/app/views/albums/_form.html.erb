@@ -1,0 +1,45 @@
+<% action == :new ? url = albums_url : url = album_url %>
+<% action == :new ? title = 'Create a New Album!': title = 'Edit this Album' %>
+
+<section>
+  <h1><%= title %></h1>
+  <br>
+
+  <form action=" <%= url %> " method="post">
+    <% unless action == :new %>
+    <input type="hidden" name="_method" value="patch">
+    <% end %>
+    <%= auth_token %>
+    <select name="album[band_id]">
+      <% Band.all.each do |band| %>
+        <option value="<%= band.id %>"
+          <%= 'selected' if @band.id == band.id %>> <%= band.name %> </option>
+      <% end %>
+    </select>
+    <br>
+    <label for="album[title]">Title:
+      <input type="text" name="album[title]" value="<%= album.title %>">
+    </label>
+    <br>
+
+    <label for="album[yr]">Year:
+      <input type="text" name="album[yr]" value="<%= album.yr %>">
+    </label>
+    <br>
+
+    <label for="album[studio]">Studio
+      <input type="radio" name="album[studio]" value="<%= true %>" <%= 'checked' if album.studio %> >
+    </label>
+
+    <label for="album[studio]">Live
+      <input type="radio" name="album[studio]" value="<%= false %>" <%= 'checked' unless album.studio %> >
+    </label>
+
+    <% if flash[:errors] %>
+      <% flash[:errors].each do |error| %>
+          error
+      <% end %>
+    <% end %>
+    <input type="submit" name="" value="Submit">
+
+  </form>

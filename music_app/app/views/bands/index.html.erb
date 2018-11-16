@@ -1,7 +1,15 @@
 <section>
   <h1>Bands</h1>
-  <br>
+
+  <form class="" action="<%= new_band_url %>" method="post">
+  <%= auth_token %>
+    <input type="hidden" name="_method" value="get">
+    <input type="submit" name="" value="Add a New Band!">
+  </form>
+
+  <container class="album_list">
   <% @bands.each do |band| %>
-    <a href="<%= band_url(band) %> "><%= band.name %></a> 
+    <a href="<%= band_url(band) %> "><%= band.name %></a>
   <% end %>
+  </container>
 </section>
